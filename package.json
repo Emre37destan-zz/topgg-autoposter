@@ -1,0 +1,32 @@
+{
+  "name": "topgg-autoposter",
+  "version": "2.0.0",
+  "description": "Auto-Poster for Top.gg",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node ./tests/test.js",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emre37destan/topgg-autoposter.git"
+  },
+  "author": "Emre37destan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emre37destan/topgg-autoposter/issues"
+  },
+  "homepage": "https://github.com/Emre37destan/topgg-autoposter#readme",
+  "devDependencies": {
+    "discord-rose": "latest",
+    "discord.js": "latest",
+    "eris": "latest"
+  },
+  "dependencies": {
+    "@jpbberry/typed-emitter": "^1.0.1",
+    "@top-gg/sdk": "github:Emre37destan/node-sdk",
+    "typescript": "^4.2.3"
+  },
+  "types": "./dist/index.d.ts"
+}
